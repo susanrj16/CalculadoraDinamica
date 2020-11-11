@@ -21,7 +21,9 @@
         </Grid.RowDefinitions>
 
         <Border Margin="5" Grid.ColumnSpan="3" Grid.Row="0" BorderBrush="Black" BorderThickness="2">
-            <TextBlock x:Name="ResultadoTextBlock"></TextBlock>
+            <Viewbox HorizontalAlignment="Right">
+                <TextBlock x:Name="ResultadoTextBlock"></TextBlock>
+            </Viewbox>
         </Border>
 
         <Button Margin="5" Grid.ColumnSpan="3" Grid.Row="4" FontSize="20" Height="40" Click="Button_Click">
